@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace P3AddNewFunctionalityDotNetCore.Tests
+namespace P3AddNewFunctionalityDotNetCore.Tests.UnitTests
 {
     public class ProductServiceTests
     {
@@ -201,6 +201,6 @@ namespace P3AddNewFunctionalityDotNetCore.Tests
             mockCart.Verify(cart => cart.RemoveLine(It.IsAny<Product>()), Times.Once);
             mockProductRepository.Verify(repo => repo.DeleteProduct(productId), Times.Once);
 
-        }        
+        }
     }
 }
