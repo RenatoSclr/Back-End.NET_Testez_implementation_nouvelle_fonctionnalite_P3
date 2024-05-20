@@ -21,7 +21,7 @@ namespace P3AddNewFunctionalityDotNetCore.Models.Repositories
             return product;
         }
 
-        public async Task<IList<Product>> GetProduct()
+        public async Task<IList<Product>> GetProducts()
         {
             var products = await _context.Product.ToListAsync();
             return products;

@@ -78,7 +78,7 @@ namespace P3AddNewFunctionalityDotNetCore.Models.Services
 
         public async Task<IList<Product>> GetProduct()
         {
-            var products = await _productRepository.GetProduct();
+            var products = await _productRepository.GetProducts();
             return products;
         }
         public void UpdateProductQuantities()
