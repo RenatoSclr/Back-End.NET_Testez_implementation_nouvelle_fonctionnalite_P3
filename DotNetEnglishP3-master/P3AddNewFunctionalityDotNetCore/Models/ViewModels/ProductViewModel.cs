@@ -8,19 +8,19 @@ namespace P3AddNewFunctionalityDotNetCore.Models.ViewModels
         [BindNever]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "MissingName")]
+        [Required(ErrorMessage = "ErrorMissingName")]
         public string Name { get; set; }
 
         public string Description { get; set; }
 
         public string Details { get; set; }
 
-        [Required(ErrorMessage = "MissingStock")]
-        [Range(1, int.MaxValue, ErrorMessage = "StockNotGreaterThanZeroAndNotAnInteger")]
+        [Required(ErrorMessage = "ErrorMissingStock")]
+        [Range(1, int.MaxValue, ErrorMessage = "ErrorStockValue")]
         public string Stock { get; set; }
 
-        [Required(ErrorMessage = "MissingPrice")]
-        [Range(0.01, double.MaxValue, ErrorMessage = "PriceNotGreaterThanZero")]
+        [Required(ErrorMessage = "ErrorMissingPrice")]
+        [Range(0.01, double.MaxValue, ErrorMessage = "ErrorPriceValue")]
         public string Price { get; set; }
     }
 }

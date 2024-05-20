@@ -130,6 +130,6 @@
     <value>Le prix doit être un nombre supérieur à zéro</value>
   </data>
   <data name="ErrorStockValue" xml:space="preserve">
-    <value>Le stock doit être un nombre supérieur à zéro</value>
+    <value>Le stock doit être un nombre entier supérieur à zéro</value>
   </data>
 </root>

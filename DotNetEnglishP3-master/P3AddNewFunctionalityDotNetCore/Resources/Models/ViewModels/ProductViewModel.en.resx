@@ -130,6 +130,6 @@
     <value>The price value must be a number greater than zero</value>
   </data>
   <data name="ErrorStockValue" xml:space="preserve">
-    <value>The stock value must be a number greater than zero</value>
+    <value>The stock value must be a integer number greater than zero</value>
   </data>
 </root>
