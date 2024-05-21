@@ -21,7 +21,7 @@ namespace P3AddNewFunctionalityDotNetCore.Tests.UnitTests
             string culture = languageService.SetCulture(language);
 
             // Assert
-            Assert.Same("fr", culture);
+            Assert.Same("fr-FR", culture);
         }
 
         [Fact]
@@ -35,7 +35,7 @@ namespace P3AddNewFunctionalityDotNetCore.Tests.UnitTests
             string culture = languageService.SetCulture(language);
 
             // Assert
-            Assert.Same("en", culture);
+            Assert.Same("en-US", culture);
         }
 
         [Fact]
@@ -49,7 +49,7 @@ namespace P3AddNewFunctionalityDotNetCore.Tests.UnitTests
             string culture = languageService.SetCulture(language);
 
             // Assert
-            Assert.Same("es", culture);
+            Assert.Same("es-ES", culture);
         }
     }
 }
