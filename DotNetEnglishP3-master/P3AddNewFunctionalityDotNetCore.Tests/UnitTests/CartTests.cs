@@ -1,15 +1,7 @@
 ﻿using P3AddNewFunctionalityDotNetCore.Models.Entities;
-using P3AddNewFunctionalityDotNetCore.Models.Repositories;
-using P3AddNewFunctionalityDotNetCore.Models.Services;
 using P3AddNewFunctionalityDotNetCore.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
-using P3AddNewFunctionalityDotNetCore.Models.ViewModels;
-using Moq;
 
 namespace P3AddNewFunctionalityDotNetCore.Tests.UnitTests
 {
